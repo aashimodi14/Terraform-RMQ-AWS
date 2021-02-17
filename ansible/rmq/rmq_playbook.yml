@@ -29,5 +29,5 @@
         - name: Add initial user
           become: yes
           shell: |
-            rabbitmqctl add_user sparlor Welcome1
-            rabbitmqctl set_user_tags sparlor administrator
+            rabbitmqctl add_user aashi-modi Welcome1
+            rabbitmqctl set_user_tags aashi-modi administrator
