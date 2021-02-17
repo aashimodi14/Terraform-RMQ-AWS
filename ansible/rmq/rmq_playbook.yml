@@ -1,6 +1,6 @@
 ---
     - name: Configure Jenkins Job
-      hosts: 3.92.0.196
+      hosts: rmq
 
       tasks:
 
