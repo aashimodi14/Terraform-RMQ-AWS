@@ -14,3 +14,7 @@ resource "aws_instance" "rmq" {
         group = var.group
     }
 }
+
+output "instance_ip" {
+  value = aws_instance.rmq.public_ip
+}
